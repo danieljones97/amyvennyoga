@@ -1,0 +1,115 @@
+* {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Handwriting", cursive !important;
+  word-spacing: 0.5em;
+}
+
+#fixed-navbar {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: flex-start;
+  display: block;
+  box-shadow: 0 2px 2px -1px white
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #7c6a86;
+}
+
+.navbar a {
+  padding-left: 5%;
+  color: linen;
+  font-size: 120%;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.navbar a:hover {
+  padding-left: 5%;
+  color: lightgray;
+  text-decoration: none;
+}
+
+#navbar-logo {
+  width: 8%;
+  padding: 0;
+}
+
+#jumbotron {
+  background-image: url("../images/background-image.jfif");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+
+.jumbotron-logo {
+  width: 20%;
+  padding-top: 10%;
+}
+
+#about-me {
+  padding: 3em 1em;
+  background-color: #7c6a86;
+  color: linen;
+}
+
+#about-me-text {
+  align-items: center;
+}
+
+#ames-icon {
+  max-width: 60%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#classes {
+  padding: 3em 1em;
+  background-color:linen;
+  color: #7c6a86;
+}
+
+#classes-title {
+  padding-left: 1em;
+}
+
+#classes-text {
+  padding-left: 3em;
+}
+
+#membership {
+  padding: 3em 1em;
+  background-color: #7c6a86;
+  color: linen;
+}
+
+#membership-title {
+  padding-left: 1em;
+}
+
+#membership-list {
+  padding-left: 3em;
+}
+
+#contact {
+  padding: 3em 1em;
+  background-color: linen;
+  color: #7c6a86;
+}
+
+#contact-title {
+  padding-left: 1em;
+}
+
+#icons {
+  padding: 0.3em 1em;
+  font-size: 150%;
+}
